@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 { 
-int m1,m2,m3;
+int m1,m2,m3,sum;
 float avg;
 char name[20];
 printf("ENTER YOUR NAME: \n");
@@ -11,7 +11,7 @@ scanf ("%d %d %d",&m1 ,&m2, &m3);
 sum= m1+m2+m3;
 avg=(sum/3.0);
 printf ("your name is %s \n",name);
-printf("ur total marks scored is %f",sum);
+printf("ur total marks scored is %d",sum);
 printf ("your average : ");
 printf ("%f",avg);
 

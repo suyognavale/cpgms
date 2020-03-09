@@ -1,0 +1,24 @@
+
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+int a,b,c;
+float Area,Perimeter,Q,W;
+printf ("ENTER THE VALUE OF a\n");
+scanf ("%d" ,&a);
+printf ("ENTER THE VALUE OF b\n");
+scanf ("%d",&b);
+printf ("ENTER THE VALUE OF c\n");
+scanf ("%d",&c);
+Perimeter=a+b+c;
+Q=Perimeter/2;
+W=(Q*(Q-a)*(Q-b)*(Q-c));
+Area= sqrt(W);
+printf ("THE PERIMETER OF THE TRIANGLE IS %f\n",Perimeter);
+printf ("THE AREA OF THE TRIANGLE IS %f\n",Area);
+
+}
+
+
+ 
